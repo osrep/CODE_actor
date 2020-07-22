@@ -196,7 +196,7 @@ for i in range(rho_size):
 		eng.eval("solver.setf(inputDistribution, inputMomentumGrid);", nargout = 0)
 	
 	else:
-		eng.eval("solver.setftoMaxmellian();", nargout = 0)
+		eng.eval("solver.setftoMaxwellian();", nargout = 0)
 
 	# Set the number of time steps to be saved
 	eng.eval("solver.setnSaves(50);", nargout = 0)
