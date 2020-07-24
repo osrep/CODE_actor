@@ -1,0 +1,3 @@
+[submodule "ext/CODE"]
+	path = ext/CODE
+	url = https://github.com/chalmersplasmatheory/CODE.git
