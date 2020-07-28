@@ -90,8 +90,8 @@ else:
 
 
 # Set the working directory to the CODE directory
-eng.cd('/pfs/work/g2solasz/git/CODE/src/')
-eng.addpath('/pfs/work/g2solasz/git/CODE_actor')
+eng.cd('/pfs/work/g2solasz/git/CODE_actor/ext/CODE/src')
+eng.addpath('/pfs/work/g2solasz/git/CODE_actor/CODE_actor')
 
 eng.InitCODE(nargout=0)
 
